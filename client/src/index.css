@@ -1,0 +1,141 @@
+html {
+    width:100vw;
+    overflow-x:hidden;
+}
+
+body{
+    background-color: #ECE6E6;
+}
+.col{
+    background-color: #E3D9D9;
+    border-radius: 10px 10px 10px 10px;
+}
+.img{
+    border-radius: 7px 7px 0 0;
+}
+.main__game{
+    width: 1300px;
+    margin-top: 70px;
+}
+.title_about{
+    color: #716161;
+}
+.video{
+    width: 500px;
+    height: 340px;
+    background-color: #716161;
+}
+.screenshot{
+    width: 240px;
+    height: 200px;
+    background-color: #716161;
+}
+
+.model{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    /* transition: opacity .2s ease, visibility .2s ease, transform .2s ease-in-out; */
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    overflow: hidden;
+    z-index: 999;
+}
+.model.open{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+.model img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 20px 0 20px;
+    margin: 0 auto;
+}
+.icon{
+    position: fixed;
+    top: -20px;
+    right: 10px;
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    cursor: pointer;
+    color: white;
+}
+.game_image{
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.more__info{
+    background-color: #E3D9D9;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    top: 312px;
+    right: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+.game__title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.game__cart{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.game__info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px; 
+    font-size: 18px;
+}
+.game__info:not(:last-child){
+    border-bottom: solid 1px black;
+}
+.same__games{
+    margin-left: 105px;
+    margin-right: 105px;
+}
+.logout__button{
+    position: absolute;
+    z-index: 999;
+    top: 10px;
+    left: 1320px;
+}
+.delete__icon{
+    position: absolute;
+    z-index: 999;
+    right: 0px;
+    top: 0;
+    cursor: pointer;
+}
+.wrap{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    width: 565px;
+    padding-right: 25px;
+  }
+.box{
+    width: 250px;
+    height: 210px;
+    margin: 10px;
+}

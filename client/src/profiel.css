@@ -1,0 +1,54 @@
+
+.test{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 115px;
+}
+.profi{
+
+    width: 200px;
+    
+} 
+ .info{
+    flex-direction: column;
+    flex-grow: 3;
+    height: 400px;
+    max-width: 1000px;
+    margin-left: 40px;
+}
+
+.info_name{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 73px;
+    font-size: 24px;
+} 
+ .level{
+    margin-top: 5px;
+    color: #7E7C7C;
+    font-size: 18px;
+}
+.games{
+    margin-top: 67px;
+    font-size: 16px;
+}
+.games div{
+    background-color: white;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+} 
+.nav__prof{
+    margin-top: 35px;
+    width: 200px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    justify-content: space-between;
+}
+.nav__prof div{
+    font-size: 16px;
+}
+
